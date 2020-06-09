@@ -147,10 +147,35 @@ html {
   width: 100%;
   max-width: 880px;
   box-sizing: border-box;
-} 
-h1{
-    font-size:4rem;
-    text-align:center;
+  box-shadow: 0.1px 0.1px 4px 0.2px black;
+}
+header {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+h1 {
+  font-size: 4rem;
+  text-align: center;
+}
+h2 {
+  font-size: 3rem;
+  text-align: center;
+}
+
+nav {
+  margin: 0 auto;
+  width: fit-content;
+}
+nav {
+  display: flex;
+}
+
+nav a {
+  border: red 1rem inset;
+  padding:1rem 2rem;
+  margin:1rem 0;
+  font-size: 1.6rem;
 }
 
 header img {
@@ -159,4 +184,13 @@ header img {
   object-fit: none;
   object-position: 0px 45%;
   zoom: 30%;
+}
+
+.digital-workbench {
+  border: purple 1rem double;
+  height: 50vh;
+}
+body {
+  height: 90vh;
+  border: red 1rem double;
 }
