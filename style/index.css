@@ -173,17 +173,16 @@ nav {
 
 nav a {
   border: red 1rem inset;
-  padding:1rem 2rem;
-  margin:1rem 0;
+  padding: 1rem 2rem;
+  margin: 1rem 0;
   font-size: 1.6rem;
 }
 
 header img {
   width: 100%;
-  height: 200px;
-  object-fit: none;
-  object-position: 0px 45%;
-  zoom: 30%;
+  height: 45vh;
+  object-fit: cover;
+  object-position: 0px 55%;
 }
 
 .digital-workbench {
@@ -193,4 +192,22 @@ header img {
 body {
   height: 90vh;
   border: red 1rem double;
+}
+.projects{
+  display: flex;
+  max-width:90vw;
+  width:100%;
+}
+
+.card{
+  display: flex;
+  justify-content: ;
+  /* flex: 0 1 30%; */
+}
+
+.card img {
+  width: 80%;
+  height: 70%;
+  object-fit: cover;
+  object-position: -1px 50%;
 }
