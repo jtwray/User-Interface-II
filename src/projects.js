@@ -3,19 +3,19 @@ const projectsDiv = document.querySelector(".projects");
 let projects = [
   {
     name: "Kanyes Quotes",
-    imgUrl: "https://i.imgur.com/LIiyQ4J.png",
+    imgUrl: "https://i.imgur.com/LIiyQ4J.png?1",
     deployedAt: "https://kanyesays.now.sh/",
     githubRepo: "https://github.com/jtwray/ReactReduxThunk",
   },
   {
     name: "Kanyes Quotes",
-    imgUrl: "https://i.imgur.com/LIiyQ4J.png",
+    imgUrl: "https://i.imgur.com/LIiyQ4J.png?1",
     deployedAt: "https://kanyesays.now.sh/",
     githubRepo: "https://github.com/jtwray/ReactReduxThunk",
   },
   {
     name: "Kanyes Quotes",
-    imgUrl: "https://i.imgur.com/LIiyQ4J.png",
+    imgUrl: "https://i.imgur.com/LIiyQ4J.png?1",
     deployedAt: "https://kanyesays.now.sh/",
     githubRepo: "https://github.com/jtwray/ReactReduxThunk",
   },
