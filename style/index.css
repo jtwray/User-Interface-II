@@ -187,27 +187,35 @@ header img {
 
 .digital-workbench {
   border: purple 1rem double;
-  height: 50vh;
+
 }
 body {
-  height: 90vh;
+
   border: red 1rem double;
 }
 .projects{
   display: flex;
-  max-width:90vw;
   width:100%;
+  justify-content: space-evenly;
 }
 
 .card{
   display: flex;
-  justify-content: ;
-  /* flex: 0 1 30%; */
+  justify-content: space-evenly;
+  flex-direction: column;
+  width: 20%;
+  border: 0.5rem red groove;
+  border-radius: 4%;
+  padding: 1rem;
+  margin: 1rem 0;
+  background: firebrick;
+  color: antiquewhite;
+  text-shadow: 2px 0px 0.1px black;
 }
 
 .card img {
-  width: 80%;
-  height: 70%;
-  object-fit: cover;
-  object-position: -1px 50%;
+width: 100%;
+  
 }
+
+
